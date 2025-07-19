@@ -25,13 +25,7 @@ Arithmetic: ADD, SUB, AND, OR
 
 Memory: LW, SW
 
-## Project Organization
 
-riscv-python-emulator/
-├── Test
-│ ├── Src
-│ ├── src test files
-├── Data Path files
 
 
 
