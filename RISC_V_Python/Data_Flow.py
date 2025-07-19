@@ -1,4 +1,4 @@
-# This is a test to check the data flow
+# This is a test to Show the proof of concept of the processor to achieve R-Type, I-Type and S-Type instructions
 from I_Type_Data_path import *
 from R_Type_Data_path import *
 from S_Type_Data_path import *
