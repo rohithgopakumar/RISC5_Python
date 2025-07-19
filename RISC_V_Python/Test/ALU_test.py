@@ -1,4 +1,4 @@
-from ALU import ALU
+from Src.ALU import ALU
 
 opr1 = 0b0001
 opr2 = 0b0010

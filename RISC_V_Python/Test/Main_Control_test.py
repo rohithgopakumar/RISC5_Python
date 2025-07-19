@@ -1,5 +1,5 @@
-from Main_Control import *
-from Instruction_Mem import *
+from Src.Main_Control import *
+from Src.Instruction_Mem import *
 
 
 

@@ -1,19 +1,22 @@
-from PC import *
-from Instruction_Mem import *
-from Register_file import *
-from Main_Control import *
-from ALU_Control import *
-from ALU import *
-from ALU_mux import *
-from WB import *
-from Reg_mem_init import *
+from Test.Src.PC import PC
+from Test.Src.Instruction_Mem import *
+from Test.Src.Register_file import *
+from Test.Src.Main_Control import *
+from Test.Src.ALU_Control import *
+from Test.Src.ALU import *
+from Test.Src.ALU_mux import *
+from Test.Src.WB import *
+from Test.Src.Reg_mem_init import *
 
+#Initialize the register mem
+
+register_mem = Reg_mem_init()
 
 # Start the program counter
 
-def R_Type(pc, register, data_mem):
- 
- register_mem = register
+pc = 0
+while pc < 21:
+
 ## Pc 
  pc = PC(pc)
 
@@ -59,7 +62,10 @@ def R_Type(pc, register, data_mem):
 # Write back into the reg
 
  register_mem = Register_File(rd,rs2,rs1,WB(ALU_out,35,mem2reg),regwrite,register_mem)
+ print("--------------------------------------------------------------------------------------------")
+ print(register_mem)
+ print("--------------------------------------------------------------------------------------------")
  
  pc = pc + 4
 
- return register_mem , data_mem, pc
+ #print(PC(pc))

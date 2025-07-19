@@ -5,8 +5,6 @@
 def Data_Memory(Addr, Datain, Memwrite, Memread, Data_mem):
 
 
-
-
  for i in range(len(Data_mem)):
 
      if Data_mem[i][0] == int(Addr,2) and Memread == 1:

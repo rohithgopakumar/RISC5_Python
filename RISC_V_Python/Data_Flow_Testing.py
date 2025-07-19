@@ -2,9 +2,9 @@
 from I_Type_Data_path import *
 from R_Type_Data_path import *
 from S_Type_Data_path import *
-from Reg_mem_init import *
-from Data_mem_init import *
-from PC import *
+from Test.Src.Reg_mem_init import *
+from Test.Src.Data_mem_init import *
+from Test.Src.PC import PC
 import copy
 # Initialize the reg and data mem
 

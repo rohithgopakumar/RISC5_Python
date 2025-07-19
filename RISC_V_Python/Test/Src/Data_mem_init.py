@@ -1,6 +1,4 @@
 # This is to initialize the data memory
-
-
 def Data_mem_init():
 
  Data_mem = [

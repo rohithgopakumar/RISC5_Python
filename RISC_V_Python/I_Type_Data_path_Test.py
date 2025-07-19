@@ -1,16 +1,16 @@
 # This is the data path for I Type instructions
-from PC import *
-from Instruction_Mem import *
-from Register_file import *
-from Main_Control import *
-from ALU_Control import *
-from Sign_Ext import *
-from ALU_mux import *
-from ALU import *
-from Data_Memory import *
-from WB import *
-from Reg_mem_init import *
-from Data_mem_init import *
+from Test.Src.PC import PC
+from Test.Src.Instruction_Mem import *
+from Test.Src.Register_file import *
+from Test.Src.Main_Control import *
+from Test.Src.ALU_Control import *
+from Test.Src.Sign_Ext import *
+from Test.Src.ALU_mux import *
+from Test.Src.ALU import *
+from Test.Src.Data_Memory import *
+from Test.Src.WB import *
+from Test.Src.Reg_mem_init import *
+from Test.Src.Data_mem_init import *
 
 # Init the reg mem
 
