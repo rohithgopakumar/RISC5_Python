@@ -25,9 +25,11 @@ A lightweight RISC-V emulator written in Python for educational and prototyping 
 
 Implements a subset of the RV32I base instruction set:
 
-Arithmetic: ADD, SUB, AND, OR
+R-Type: ADD, SUB, AND, OR
 
-Memory: LW, SW
+I-Type: LW 
+
+S-Type: Sw
 
 
 
