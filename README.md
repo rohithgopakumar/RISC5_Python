@@ -29,7 +29,7 @@ R-Type: ADD, SUB, AND, OR
 
 I-Type: LW 
 
-S-Type: Sw
+S-Type: SW
 
 
 
